@@ -9,6 +9,9 @@
 // Testing Git push 2
 package researchSupport;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Maintains details of an individual Paper.
  * YOU NEED TO COMPLETE THIS CLASS
@@ -17,6 +20,7 @@ public class Paper {
     private static int nextIdNum=0;
     private String title ;
     private String[] authors = new String[6] ;
+    private List<String> referencedPapers = new ArrayList<String>() ;
     
    
  /** Creates a new instance of Paper */
